@@ -6,6 +6,7 @@ public class Clase_HashSet1 {
 
 	public static void main(String[] args) {
 
+		// Declaro un HashSet con todos los profesores
 		HashSet<String> conjuntoProfesores = new HashSet<>();
 		conjuntoProfesores.add("María Jesús");
 		conjuntoProfesores.add("Juan Carlos");
@@ -19,6 +20,8 @@ public class Clase_HashSet1 {
 		if (conjuntoProfesores.contains("Tamara"))
 			conjuntoProfesores.remove("Tamara");
 		System.out.println(conjuntoProfesores.contains("Tamara"));
-		System.out.println("El HashSet tiene " + conjuntoProfesores.size() + " elementos");		
+		System.out.println("El HashSet tiene " + conjuntoProfesores.size() + " elementos");	
+
+		// Visualizar los elementos del conjunto
 	}
 }
